@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://lleryholmesgit.github.io/voice-hop-support/play/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lleryholmesgit.github.io/voice-hop-support/play/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lleryholmesgit.github.io/voice-hop-support/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://lleryholmesgit.github.io/voice-hop-support/zh/"/>
+  </url>
+  <url><loc>https://lleryholmesgit.github.io/voice-hop-support/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lleryholmesgit.github.io/voice-hop-support/play/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lleryholmesgit.github.io/voice-hop-support/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://lleryholmesgit.github.io/voice-hop-support/zh/"/>
+  </url>
+  <url><loc>https://lleryholmesgit.github.io/voice-hop-support/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lleryholmesgit.github.io/voice-hop-support/play/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lleryholmesgit.github.io/voice-hop-support/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://lleryholmesgit.github.io/voice-hop-support/zh/"/>
+  </url>
+  <url><loc>https://lleryholmesgit.github.io/voice-hop-support/</loc></url>
+  <url><loc>https://lleryholmesgit.github.io/voice-hop-support/privacy.html</loc></url>
+</urlset>

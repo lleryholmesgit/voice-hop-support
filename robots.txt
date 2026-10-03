@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lleryholmesgit.github.io/voice-hop-support/sitemap.xml

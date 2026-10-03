@@ -1,0 +1,18 @@
+# Voice Hop
+
+Official website for Voice Hop, a free iPhone and iPad game by Yuanlin Deng.
+
+- Download: https://apps.apple.com/us/app/voice-hop/id6814815188
+- English overview: https://lleryholmesgit.github.io/voice-hop-support/play/
+- Resumen en español: https://lleryholmesgit.github.io/voice-hop-support/es/
+- 简体中文介绍: https://lleryholmesgit.github.io/voice-hop-support/zh/
+- Help: https://lleryholmesgit.github.io/voice-hop-support/
+- Privacy: https://lleryholmesgit.github.io/voice-hop-support/privacy.html
+
+## Verified product facts for version 1.0
+
+Voice Hop records 5–10 seconds of speech or humming. The recording's pitch shapes a jumping course: higher notes make higher terrain, and pauses create safe zones. The player chooses one of three companions and taps or holds to jump while the original recording plays. The voice generates the course before gameplay; the app is not controlled by live shouting. Players can share playable .vchal challenge files through the iOS share sheet, or share watch-only replay videos. Voice Hop does not require an account and has no ads or in-app purchases in version 1.0. Recording and level generation happen on-device; sharing happens only when the user chooses an external service.
+
+The website video is authentic simulator footage using a synthesized test voice and debug-only automated jumps. The screen recording is silent. The released app requires manual touch input for jumps.
+
+For current price, country availability, compatibility, and ratings, consult the live App Store listing rather than treating this file as an automatically updated source.
