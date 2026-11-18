@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voice Hop — Can you beat this voice?</title>
+<meta name="description" content="A friend turned their voice into a jumping level. Tap to play it in Voice Hop.">
+<meta name="robots" content="noindex">
+<!-- Shows the App Clip card (no install needed) on iPhone, and opens the full app when it is installed. -->
+<meta name="apple-itunes-app" content="app-id=6814815188, app-clip-bundle-id=com.yuanlin.voicechallenge.Clip, app-clip-display=card">
+<meta property="og:type" content="website">
+<meta property="og:title" content="I said one thing. Can you get past it?">
+<meta property="og:description" content="My voice became a Voice Hop level. Tap to play.">
+<meta property="og:image" content="https://lleryholmesgit.github.io/voice-hop-support/icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="../icon.png"><link rel="stylesheet" href="../marketing.css">
+</head><body><div class="shell"><main>
+<section class="hero"><div class="hero-copy">
+<p class="eyebrow" data-i18n="eyebrow">A VOICE HOP CHALLENGE</p>
+<h1 data-i18n="title">Your friend said something. Can you get past it?</h1>
+<p class="lead" data-i18n="lead">Their voice became a jumping level. High notes make tall terrain, pauses are safe zones.</p>
+<div class="actions"><a class="button" id="get" href="https://apps.apple.com/app/id6814815188" data-i18n="button">Play in Voice Hop ↗</a></div>
+<p class="fine" data-i18n="fine">On a compatible iPhone or iPad, tap Open when the App Clip banner appears to play without installing. If it is unavailable, install or update Voice Hop, then return to this message and open the same challenge link. Voice Hop is free, with no ads. Challenge links stop working after 30 days.</p>
+</div><div class="hero-art"><img src="../icon.png" alt="Voice Hop"></div></section>
+</main><footer>© 2026 Yuanlin Deng · <a href="../">Help</a> · <a href="../privacy.html">Privacy</a></footer></div>
+<script>
+(function () {
+  var text = {
+    es: {
+      eyebrow: "UN RETO DE VOICE HOP",
+      title: "Tu amigo dijo algo. ¿Puedes superarlo?",
+      lead: "Su voz se convirtió en un nivel de saltos. Las notas agudas levantan el terreno y las pausas son zonas seguras.",
+      button: "Jugar en Voice Hop ↗",
+      fine: "En un iPhone o iPad compatible, toca Abrir cuando aparezca el aviso de App Clip para jugar sin instalar. Si no aparece, instala o actualiza Voice Hop y vuelve al mensaje para abrir el mismo enlace de reto. Voice Hop es gratis y no tiene anuncios. Los enlaces de reto dejan de funcionar a los 30 días."
+    },
+    zh: {
+      eyebrow: "一条 VOICE HOP 挑战",
+      title: "朋友说了句话，你能过得去吗？",
+      lead: "他的声音变成了一条跳跃关卡：音调越高，地形越高；停顿是安全区。",
+      button: "在 Voice Hop 里玩 ↗",
+      fine: "在兼容的 iPhone 或 iPad 上，出现 App Clip 横幅后，点“打开”即可免安装游玩。如果未出现横幅，请安装或更新 Voice Hop，再回到原消息打开同一条挑战链接。Voice Hop 免费、无广告。挑战链接 30 天后失效。"
+    }
+  };
+  var code = (navigator.language || "en").toLowerCase();
+  var chosen = code.indexOf("zh") === 0 ? "zh" : code.indexOf("es") === 0 ? "es" : null;
+  if (!chosen) return;
+  document.documentElement.lang = chosen === "zh" ? "zh-Hans" : "es";
+  var nodes = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < nodes.length; i++) {
+    var value = text[chosen][nodes[i].getAttribute("data-i18n")];
+    if (value) nodes[i].textContent = value;
+  }
+})();
+</script>
+</body></html>
